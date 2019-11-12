@@ -1,0 +1,125 @@
+.navbar .nav-item:not(:last-child) {
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.innerList {
+  text-align: left;
+}
+.dropdown-menu {
+  margin-top: 0;
+  width: auto !important;
+  height: auto !important;
+  text-align: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.dropdown-container {
+  width: 100% !important;
+  text-align: center;
+}
+.card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  font-size: 1.5rem;
+
+  border: 2px;
+  padding: 10px;
+  background: #ffffff5b;
+}
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.login {
+  list-style-position: inside;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+div#navbarSupportedContent {
+  margin-right: 5%;
+}
+
+img.logo {
+  width: 50%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+  background-color: rgb(231, 231, 231);
+  color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+  display: grid !important;
+  grid-template-columns: 23% 23% 23% 23% !important;
+  grid-gap: 15px !important;
+  overflow: hidden;
+}
+
+#login {
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.sideImage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.learnmore {
+  border-radius: 25px;
+  background: #a1a1a1 !important;
+  border: 2px;
+  color: #000 !important;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.learnmore:hover,
+.learnmore:focus > .learnmore {
+  color: #fff !important;
+  background: red !important;
+  text-decoration: none;
+}
+
+img.card {
+  max-width: 95%;
+}
+.arrow-up {
+  z-index: 5000;
+  width: 100;
+  height: 100;
+  right: 23.5%;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #888888;
+  position: absolute;
+  margin-top: -1px;
+  top: 5.8%;
+  display: none;
+}
+li.dropdown:hover > .arrow-up {
+  display: block;
+}
